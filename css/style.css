@@ -1,4 +1,48 @@
-body {
-  background-color: rgb(95, 160, 218);
 
+header {
+  background-color: rgba(82, 105, 114, 0.37);
+  margin-bottom:30px ;
+}
+
+
+body {
+  margin: 0 auto ;
+  width: 990px;
+  background-image:linear-gradient(rgb(61, 162, 199),rgb(249, 172, 217));
+  
+}
+#chinook {
+   margin-left: 0px;
+   margin-bottom: 30px;
+}
+#cutter{
+  margin-left: 700px;
+  margin-bottom: 30px;
+}
+#fish{
+  margin-left: 0px;
+  margin-bottom: 30px;
+}
+#frosty{
+  margin-left: 700px;
+  margin-bottom: 30px;
+}
+#family{
+  position: center;
+  margin-bottom: 30px;
+}
+
+ tr td {
+  border: 3px solid black;
+  margin-top: 30px;
+  
+}
+div  {
+  margin-left: 200px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  margin-right: 0px;
 }

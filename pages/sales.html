@@ -1,24 +1,66 @@
 <!DOCTYPE html>
 
-  <head>
-    
-    <title>Salmon Cookie</title>
-    
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <h1>Salmon cookies</h1>
-    <main>
-    <div id= 'content'>
+<html>
 
+<head>
+  <title>Salmon Cookie</title>
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <header>
+    <img src="../img/salmon.png" alt="">
+    <nav><a href="/index.html">Home</a></nav>
+  </header>
+  <main>
+    <div id="store-list"></div>
+    <div id="store-table">
+    <div id="table-footer"></div>  
+
+      <tr></tr>
     </div>
-      
 
-    
-    </main>
-    
-    
-  <!-- <script src="app.js"></script> -->
+    <!-- <div id="box">
+      Here is our Box
+  
+      <input type="text" id="input-one">
+  
+    </div> -->
 
-  </body>
+    <form id="cookie-stand">
+
+      <fieldset>
+        <p>Cookie Stand </p>
+        <label>
+          Store
+          <input type="text" name="name">
+        </label>
+        <label>
+          Hour
+          <input type="text" name="minCust">
+        </label>
+        <label>
+          Sales at Hour
+          <input type="text" name="maxCust">
+        </label>
+        <label>
+          Total Sales
+          <input type="text" name="avgCookie">
+      </fieldset>
+      <button type="submit">Submit Form</button>
+    </form>
+
+
+
+  </main>
+  <script src="../js/app2.js"></script>
+  <footer>
+    <p>Salmon Cookie Inc</p>
+    <p>Monday To Friday 6am to 7pm</p>
+    <p>1800-555-5555</p>
+    <p>Combining two gems of the PNW since 2010</p>
+  </footer>
+</body>
+
 </html>
